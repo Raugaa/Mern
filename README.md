@@ -1,75 +1,73 @@
-# E-Mandi
-A E-Commerce website made with MERN-stack. we primarily have two roles: Farmer and Buyer.
+# E-Mandi: A Direct Farmer-to-Buyer Marketplace
 
+**E-Mandi** is a MERN stack-based web platform that connects farmers directly with buyers, eliminating middlemen to ensure transparent pricing and efficient transactions. The platform allows farmers to list their agricultural products, while buyers can browse, order, and confirm delivery through a streamlined interface.
 
-<img width="1280" alt="Screenshot 2024-06-01 at 12 33 41 AM" src="https://github.com/Ezio7777/E-Mandi/assets/111626550/5ae2b3e9-a9b7-4a60-9782-6e5505170b58">
+## Table of Contents
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Future Enhancements](#future-enhancements)
+- [Contributing](#contributing)
+- [License](#license)
 
-HOME PAGE
-<img width="1280" alt="Screenshot 2024-06-01 at 1 13 08 PM" src="https://github.com/Ezio7777/E-Mandi/assets/111626550/c6e5c515-96e4-4eb9-bb69-e26e0459fcb2">
+## Features
+- **User Registration & Login**: Separate sign-up for farmers and buyers.
+- **Product Listings**: Farmers can add and manage product listings with images and descriptions.
+- **Search & Filter**: Buyers can search products and filter by category and price.
+- **Order Management**: Buyers can add products to their cart, place orders, and track order statuses.
+- **OTP-Based Confirmation**: Secure order confirmation via OTP.
+- **Product Reviews**: Buyers can leave ratings and reviews for products and sellers.
 
+## Technology Stack
+- **Frontend**: React.js, Bootstrap, CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: JWT (JSON Web Token)
+- **APIs**: Custom API integrations for order management, OTP, and payments
 
+## Getting Started
+Follow the instructions below to set up and run the **E-Mandi** platform locally.
 
-LOG IN Page
+### Prerequisites
+Ensure that you have the following installed on your system:
+- Node.js
+- npm (Node Package Manager)
+- MongoDB (local or cloud instance)
 
-<img width="1280" alt="Screenshot 2024-06-01 at 12 35 38 AM" src="https://github.com/Ezio7777/E-Mandi/assets/111626550/bb7b3a82-cc01-44f0-8bdf-994b3abe7317">
+### Installation
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/e-mandi.git
 
+git clone https://github.com/yourusername/e-mandi.git
+### Navigate to the project directory:
+2. ** Navigate to the project directory**:
+   ```bash
+   cd e-mandi
 
-# Farmer
+### Install dependencies for both frontend and backend:
+3. **Install dependencies for both frontend and backend**:
+   ```bash
+   npm install
+###Usage
+ 1. **Starting the Frontend: Navigate to the frontend directory and start the frontend server**:
+    ```bash
+    cd Frontend
+    npm strat
+    
+2. **Starting the Backend: Open a new terminal window and navigate to the backend directory**:
+   ```bash
+   cd Backend
+   npm start
+The backend API will be running on http://localhost:7000.
 
-List A New Product
+Database Setup: Make sure MongoDB is running. You can either use a local MongoDB instance or connect to MongoDB Atlas for cloud hosting.
 
-<img width="1280" alt="Screenshot 2024-06-01 at 1 21 32 PM" src="https://github.com/Ezio7777/E-Mandi/assets/111626550/043a7047-28ff-45bb-8d78-4f6ca0b7c65b">
-
-Inventory
-
-<img width="1280" alt="Screenshot 2024-06-01 at 1 15 53 PM" src="https://github.com/Ezio7777/E-Mandi/assets/111626550/2a40f6f8-de2a-45dd-be61-3b10caf90738">
-
-
-Order Received
-
-<img width="1277" alt="Screenshot 2024-06-01 at 1 21 08 PM" src="https://github.com/Ezio7777/E-Mandi/assets/111626550/ffcc18dc-2ee2-4f93-bfad-138c7d0e1bde">
-
-Order History
-
-<img width="1280" alt="Screenshot 2024-06-01 at 1 22 34 PM" src="https://github.com/Ezio7777/E-Mandi/assets/111626550/8c6de0d2-b118-4566-a1cc-d8fd3d5fed01">
-
-Feedbacks
-
-<img width="1280" alt="Screenshot 2024-06-01 at 1 27 33 PM" src="https://github.com/Ezio7777/E-Mandi/assets/111626550/348168ec-3027-429e-85d2-3ab4f9657742">
-
-# Buyer
-
-Product View
-<img width="1280" alt="Screenshot 2024-06-01 at 1 26 37 PM" src="https://github.com/Ezio7777/E-Mandi/assets/111626550/b03d1033-f383-4dc4-a9ea-860d49bc36c7">
-
-Cart
-
-<img width="1280" alt="Screenshot 2024-06-01 at 1 18 02 PM" src="https://github.com/Ezio7777/E-Mandi/assets/111626550/0fcf4486-d847-4734-abbb-a0160feb97ee">
-
-Delivery Address
-
-
-<img width="1280" alt="Screenshot 2024-06-01 at 1 18 22 PM" src="https://github.com/Ezio7777/E-Mandi/assets/111626550/5efe639d-6888-47e7-bded-61f6ed0d19b2">
-
-
-My Orders
-
-<img width="1280" alt="Screenshot 2024-06-01 at 1 18 59 PM" src="https://github.com/Ezio7777/E-Mandi/assets/111626550/34c8ef75-af97-4511-983e-b657054bec18">
-
-
-Feedback Form
-
-<img width="1280" alt="Screenshot 2024-06-01 at 1 25 53 PM" src="https://github.com/Ezio7777/E-Mandi/assets/111626550/a8efd9dd-b295-4be4-a448-5452c113ec84">
-
-
-
-
-
-
-
-
-
-
-
-
-
+Structure:
+E-Mandi/
+├── Frontend/            
+├── Backend/             
+├── models/             
